@@ -1,0 +1,16 @@
+# Binarios e arquivos objeto
+*.o
+*.obj
+*.exe
+build/
+bin/
+
+# Configuracoes de editor
+.vscode/*
+!.vscode/c_cpp_properties.json
+!.vscode/settings.json
+.idea/
+*.swp
+
+# Logs de execucao temporarios
+*.tmp
