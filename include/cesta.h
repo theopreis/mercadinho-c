@@ -3,8 +3,7 @@
 
 #include "produto.h"
 
-typedef struct Cesta
-{
+typedef struct Cesta {
     Produto p;
     int qtd_itens;
     float valor_total;

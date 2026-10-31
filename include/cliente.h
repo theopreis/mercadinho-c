@@ -4,10 +4,11 @@
 #include "produto.h"
 #include "cesta.h"
 
-typedef struct Cliente
-{
+typedef struct Cliente {
+    int cpf[11];
+    char nome[30];
+    float pontos;
     Cesta c;
-    float valor_pago;
 } Cliente;
 
 
